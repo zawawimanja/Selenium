@@ -1,0 +1,9 @@
+locating elements through "id" in Selenium WebDriver.
+
+
+driver.findElement(By.id ("element ID"))  
+
+
+locating Google Search button in our test script.
+
+driver.findElement(By.name ("btnK"))  
