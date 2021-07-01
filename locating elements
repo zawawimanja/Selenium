@@ -7,3 +7,14 @@ driver.findElement(By.id ("element ID"))
 locating Google Search button in our test script.
 
 driver.findElement(By.name ("btnK"))  
+==================================================================
+
+
+By ID	driver.findElement(By.id (<element ID>))	Locates an element using the ID attribute
+By name	driver.findElement(By.name (<element name>))	Locates an element using the Name attribute
+By class name	driver.findElement(By.className (<element class>))	Locates an element using the Class attribute
+By tag name	driver.findElement(By.tagName (<htmltagname>))	Locates an element using the HTML tag
+By link text	driver.findElement(By.linkText (<linktext>))	Locates a link using link text
+By partial link text	driver.findElement(By.partialLinkText (<linktext>))	Locates a link using the link's partial text
+By CSS	driver.findElement(By.cssSelector (<css selector>))	Locates an element using the CSS selector
+By XPath	driver.findElement(By.xpath (<xpath>))	Locates an element using XPath query
