@@ -17,4 +17,11 @@ By tag name	driver.findElement(By.tagName (<htmltagname>))	Locates an element us
 By link text	driver.findElement(By.linkText (<linktext>))	Locates a link using link text
 By partial link text	driver.findElement(By.partialLinkText (<linktext>))	Locates a link using the link's partial text
 By CSS	driver.findElement(By.cssSelector (<css selector>))	Locates an element using the CSS selector
+
+
 By XPath	driver.findElement(By.xpath (<xpath>))	Locates an element using XPath query
+driver.findElement(By.xpath("//input[@name='email']"))
+1.copy xpath
+//*[@id="email"]
+2.put input before []
+//input[@name='email']
