@@ -1,1 +1,6 @@
  is a feature in Selenium that allows you to run test cases in different machines across different platforms
+
+
+Hub − The hub can also be understood as a server which acts as the central point where the tests would be triggered. 
+
+Node − Nodes are the Selenium instances that are attached to the Hub which execute the tests
