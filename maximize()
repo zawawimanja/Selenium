@@ -1,0 +1,2 @@
+//Maximize the browser
+      driver.manage().window().maximize();
