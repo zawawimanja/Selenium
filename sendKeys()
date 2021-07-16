@@ -1,0 +1,4 @@
+
+
+ // Click on the search text box and send value  
+    driver.findElement(By.id("lst-ib")).sendKeys("javatpoint tutorials");  
