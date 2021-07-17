@@ -1,0 +1,5 @@
+
+
+void sendKeys(java.lang.CharSequence keysToSend)
+void pressKey(java.lang.CharSequence keyToPress)
+void releaseKey(java.lang.CharSequence keyToRelease)
