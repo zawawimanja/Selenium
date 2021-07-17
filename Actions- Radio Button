@@ -1,0 +1,7 @@
+
+
+        driver.findElement(By.id("cpayoff1")).isSelected());
+
+         driver.findElement(By.id("cpayoff1")).isEnabled());
+  
+         driver.findElement(By.id("cpayoff1")).isDisplayed());
