@@ -1,0 +1,9 @@
+from what folder to what folder
+
+ WebElement From = driver.findElement(By.xpath(".//*[@id='j3_7']/a"));
+      WebElement To = driver.findElement(By.xpath(".//*[@id='j3_1']/a"));
+
+  Actions builder = new Actions(driver);
+      Action dragAndDrop = builder.clickAndHold(From).moveToElement(To).release(To).build();
+      
+      dragAndDrop.perform();
