@@ -1,3 +1,10 @@
 verify the state of the application
+like a boolean
 
 For Example, "verify if an item form the dropdown is selected".
+AssertEquals
+AssertNotEquals
+AssertTrue
+AssertFalse
+AssertNull
+AssertNotNull
