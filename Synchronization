@@ -1,0 +1,12 @@
+ need to wait after performing appropriate actions
+
+Implicit wait - cannot locate an object immediately because of its unavailability
+
+ //Puts a Implicit wait, Will wait for 10 seconds before throwing exception
+      driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
+
+
+ 'explicit wait,' waits for a certain condition to occur before proceeding further. It is mainly used when we want to click or act on an object once it is visible
+ 
+ 
+ Fluent wait - timer and need check constant

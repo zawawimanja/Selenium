@@ -1,4 +1,0 @@
-
-
- //Puts a Implicit wait, Will wait for 10 seconds before throwing exception
-      driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
