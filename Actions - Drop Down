@@ -1,0 +1,9 @@
+
+
+     //Selecting an item from Drop Down list Box
+      Select dropdown = new Select(driver.findElement(By.id("ccompound")));
+      dropdown.selectByVisibleText("continuously");
+      
+      //you can also use dropdown.selectByIndex(1) to select second element as
+      //index starts with 0.
+      //You can also use dropdown.selectByValue("annually");
