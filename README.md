@@ -6,3 +6,6 @@ Selenium WebDriver is the successor to Selenium RC which sends commands directly
 Webdriver using code
 
 IDE just drag drop
+
+
+Locating the element
