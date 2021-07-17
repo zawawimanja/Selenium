@@ -1,0 +1,5 @@
+
+
+      
+      // Get the text box from the application
+      String result = driver.findElement(By.id("cpar1")).getAttribute("value")
