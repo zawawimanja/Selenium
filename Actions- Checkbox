@@ -1,0 +1,8 @@
+
+
+         driver.findElement(By.id("caddoptional")).isSelected());      
+
+         driver.findElement(By.id("caddoptional")).isEnabled());
+
+         driver.findElement(By.id("caddoptional")).isDisplayed());
+      
