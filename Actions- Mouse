@@ -1,0 +1,7 @@
+void click(WebElement onElement)
+void contextClick(WebElement onElement)
+void doubleClick(WebElement onElement)
+void mouseDown(WebElement onElement)
+void mouseUp(WebElement onElement)
+void mouseMove(WebElement toElement)
+void mouseMove(WebElement toElement, long xOffset, long yOffset)
