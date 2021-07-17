@@ -1,0 +1,2 @@
+driver.clear();  
+driver.sendKeys("text");  
