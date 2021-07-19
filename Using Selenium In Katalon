@@ -18,3 +18,12 @@ WebDriver myDriver = DriverFactory.getWebDriver()
 // Find the radio button for “No” using its ID and click on it
 myDriver.findElement(By.id("no")).click();
 
+
+1. kalau nak guna seleniun dekat katalon studio,kena make sure copy import yng betul & paste dekat katalon.
+
+import org.openqa.selenium.By
+import org.openqa.selenium.WebDriver
+
+import com.kms.katalon.core.webui.driver.DriverFactory
+import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
+
