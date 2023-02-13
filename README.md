@@ -6,7 +6,7 @@ Webdriver using code
 
 IDE just drag drop
 
-How to setup
+How to setup - https://www.browserstack.com/guide/how-to-setup-selenium-in-eclipse
 
 0. install jdk - 
 1. download chromedriver - https://chromedriver.chromium.org/downloads
